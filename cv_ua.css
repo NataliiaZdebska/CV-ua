@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+  background-color: rgb(158, 190, 158);
+}
+
+footer {
+  text-align: center;
+}
+
+.education {
+  margin-left: 300px;
+}
+
+table,
+th,
+td {
+  border: none;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.bottom-info {
+  flex: 1;
+  border: 2px;
+}
