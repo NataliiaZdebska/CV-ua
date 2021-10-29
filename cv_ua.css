@@ -1,13 +1,14 @@
 body {
   padding-left: 250px;
   padding-right: 250px;
+  padding-bottom: 50px;
 }
 
 header {
   display: flex;
   background-color: rgb(97, 95, 95);
   padding-left: 200px;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .my_photo {
@@ -55,12 +56,4 @@ table.center {
 
 .language_level {
   list-style-type: none;
-}
-
-footer {
-  background-color: rgb(97, 95, 95);
-}
-
-.navigation__list {
-  color: white;
 }
