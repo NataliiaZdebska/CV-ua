@@ -1,1 +1,1 @@
-# tasks from beetroot
+# my CV in Ukrainian
