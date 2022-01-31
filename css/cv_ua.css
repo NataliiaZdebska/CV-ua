@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+root {
+  --clr-main: rgba(97, 95, 95, 1);
+  --clr-middle: rgb(97, 95, 95, 0.7);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  color: #000000;
+  border: 1px solid rgb(97, 95, 95);
+}
+
+.header {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(97, 95, 95, 1);
+  color: #ffffff;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header__photo {
+  width: 40%;
+}
+
+.header__photo_img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.personal__info {
+  width: 55%;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.socials__item {
+  padding-bottom: 10px;
+  margin: 10px auto;
+}
+
+.socials__item::before {
+  padding-right: 15px;
+  color: inherit;
+}
+
+.socials__link:hover {
+  letter-spacing: 0.02rem;
+  color: #9eadec;
+}
+
+.section__wrapper {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.section__title {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(204, 201, 201);
+  transition: all 0.7s ease-in-out;
+  text-align: center;
+  cursor: context-menu;
+  position: relative;
+}
+
+.section__title:hover {
+  background-color: rgb(150, 150, 150);
+}
+
+.section__year {
+  width: 20%;
+  padding: 10px 5px;
+}
+
+.section__position,
+.section__desc {
+  width: 40%;
+}
+
+.add_list li,
+.skills__list li {
+  padding-bottom: 5px;
+}
+
+.education__desc {
+  width: 80%;
+}
