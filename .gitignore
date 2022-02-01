@@ -1,6 +1,4 @@
-shopping_list.html
-homework_boot_store.html
-style.css
-text.html
-CV_eng.html
-index.html
+.idea
+/node_modules
+package-lock.json
+package.json
