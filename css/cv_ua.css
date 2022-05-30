@@ -14,12 +14,28 @@ a {
   color: inherit;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+p {
+  padding: 5px 0;
+}
+
 body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto 50px;
   color: #000000;
   border: 1px solid rgb(97, 95, 95);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -35,31 +51,42 @@ body {
   list-style: none;
 }
 
-.header__photo {
-  width: 40%;
-}
-
-.header__photo_img {
-  width: 100%;
-  max-width: 250px;
-}
-
 .personal__info {
-  width: 55%;
+  width: 100%;
 }
 
 .title {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
 }
 
 .subtitle {
   padding-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials__list:last-child {
+  width: 60%;
+}
+
+.socials__list {
+  width: 35%;
+  padding: 10px 0;
 }
 
 .socials__item {
   padding-bottom: 10px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 .socials__item::before {
@@ -72,21 +99,36 @@ body {
   color: #9eadec;
 }
 
-.section__wrapper {
-  padding: 5px 20px;
+.main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.right__section {
+  width: 29%;
+}
+
+.left__section {
+  width: 69%;
+}
+
+.section__wrapper {
+  padding: 10px 5px;
 }
 
 .section__item {
   display: flex;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .section__title {
   width: 100%;
   padding: 10px;
   margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
   background-color: rgb(204, 201, 201);
   transition: all 0.7s ease-in-out;
   text-align: center;
@@ -99,26 +141,31 @@ body {
 }
 
 .section__year {
-  width: 20%;
-  padding: 10px 5px;
+  padding: 0;
 }
 
-.section__position,
+.section__position {
+  width: 35%;
+}
+
 .section__desc {
-  width: 40%;
+  width: 60%;
+  list-style: disc;
 }
 
-.add_list li,
+.section__place {
+  font-weight: 600;
+}
+
+.additional__list li,
 .skills__list li {
   padding-bottom: 5px;
 }
 
-.education__desc {
-  width: 80%;
-}
-
-.education__list {
-  padding: 0 10px;
+.education__list,
+.additional__list {
+  padding: 5px 20px;
+  list-style: disc;
 }
 
 @media screen and (max-width: 767px) {
